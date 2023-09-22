@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wraper {
+  width: 100%;
+  // border: 1px solid rebeccapurple;
+}
+.contaenir {
+  width: 80%;
+  // border: 1px solid black;
+  margin: 100px auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+  }
+  &__link {
+    color: #83888f;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+}

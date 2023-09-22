@@ -1,0 +1,16 @@
+.footers {
+  width: 89%;
+  height: 120px;
+  flex-shrink: 0;
+  background: #2c343e;
+  margin-left: 100px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.footer__box {
+  padding-top: 30px;
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
